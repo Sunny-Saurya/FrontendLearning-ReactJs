@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Oswald", sans-serif;
+  --background: #212121;
+}
+
+@layer base {
+  html, body {
+    background-color: var(--background);
+    color: white;
+  }
+}

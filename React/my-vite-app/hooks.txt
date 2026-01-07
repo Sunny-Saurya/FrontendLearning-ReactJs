@@ -1,0 +1,8 @@
+1. useState() : const {count, setCount} = useState(0)
+count - store current state , setCount - store the updated value,   and useState(0) - store  initial state
+
+2. useEffect() : Handling the side effects
+   (i) - dependencies array [] - component is mounted when you have any value to thte array
+   (ii) - cleaning up 
+
+   - coomponent lifecycle : 4 this is there : initialization, mounting, updating, unmounting
