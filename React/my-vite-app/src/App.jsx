@@ -137,9 +137,9 @@ function App() {
       {/* <ParentRoutes/> */}
       {/* <task */}
       
-      {/* <Provider store={store}>
+      <Provider store={store}>
         <ReduxUI/>
-      </Provider> */}
+      </Provider>
 
       <Task/>
 

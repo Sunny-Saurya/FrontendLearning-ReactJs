@@ -8,7 +8,7 @@ export const sunameContext = createContext();
 const UseContext = () => {
 
     const [name, setname] = useState("Sunny");
-    const [surname, setsurname] = useState("Saurya");
+    const [surname, setsurname] = useState("Singhania");
 
   return (
     <div>

@@ -5,8 +5,6 @@ const ComponentY = () => {
     const name = useContext(snameContext);
     const surname = useContext(sunameContext);
 
-    
-
   return (
     <div>
         <h4>The name is {name} and  surname is {surname}</h4>
