@@ -91,12 +91,12 @@ function App() {
       {/* <Card/> */}
       {/* <EventHandling/> */}
       {/* <Likes/> */}
-      <UseState/>
+      {/* <UseState/> */}
       {/* <UseState/> */}
       {/* <UseEffect/> */}
       {/* <Password/> */}
       {/* <WithoutUseContext/> */}
-      {/* <UseContext/> */}
+      <UseContext/>
       {/* <DarkModeProvider/> */}
       {/* <UseCallback/> */}
       {/* <ParentComp/> */}
