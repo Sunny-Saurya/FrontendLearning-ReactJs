@@ -76,21 +76,22 @@ function App() {
       {/* <DashboardClass/>
       <Practice/>
       <JSXBasics/>
-      <Object/> */}
-      {/* <Alert/> */}
-      {/* <CompInComp/> */}
-      {/* <ClassCompInComp/> */}
-      {/* <DashboardClassComponent/> */}
-      {/* <Props brand = "HP" price = {75000}/> */}
-      {/* <Props con ={config}/> */}
-      {/* <Props arr = {arr}/> */}
+      <Object/>
+      <Alert/>
+
+      <CompInComp/>
+      <ClassCompInComp/>
+      <DashboardClassComponent/>
+      <Props brand = "HP" price = {75000}/>
+      <Props con ={config}/>
+      <Props arr = {arr}/> */}
       {/* <CarComponent model="KIA" />
       <InlineCSS/>
       <ExternalCss/> */}
       {/* <Card/> */}
       {/* <EventHandling/> */}
       {/* <Likes/> */}
-      {/* <UseState/> */}
+      <UseState/>
       {/* <UseState/> */}
       {/* <UseEffect/> */}
       {/* <Password/> */}
