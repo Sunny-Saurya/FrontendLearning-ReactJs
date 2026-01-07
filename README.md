@@ -116,9 +116,9 @@ This is a **personal learning repository**, but suggestions and improvements are
 
 ## 📬 Connect With Me
 
-* GitHub: [https://github.com/your-username](https://github.com/your-username)
-* LinkedIn: [https://linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
-* Instagram: @your-handle
+* GitHub: [https://github.com/your-username](https://github.com/sunny-saurya)
+* LinkedIn: [https://linkedin.com/in/your-profile](https://www.linkedin.com/in/sunny766/)
+* Instagram: @sunnnnyyyyy_
 
 ---
 
