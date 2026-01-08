@@ -1,19 +1,23 @@
-// prevent the component to rerender again and again.
-
-import React from 'react'
-import { useState } from 'react';
+import React, { useState, useCallback } from "react";
+import Child from "./Child";
 
 const UseCallbackFun = () => {
-    const [count, setcount] = useState(0);
+  const [count, setCount] = useState(0);
+
+  const increment = useCallback(() => {
+    setCount(c => c + 1);
+  }, []);
+
+  const decrement = useCallback(() => {
+    setCount(c => c - 1);
+  }, []);
+
   return (
     <>
-    <div>Count: {count} </div>
-    <button onClick={() => setcount(count => count +1)}>Increment</button>
-    <button onClick={() => setcount(count => count -1)}>Decrement</button>
-
+      <h2>Count: {count}</h2>
+      <Child onIncrement={increment} onDecrement={decrement} />
     </>
+  );
+};
 
-  )
-}
-
-export default UseCallbackFun
+export default UseCallbackFun;

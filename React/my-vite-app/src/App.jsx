@@ -96,7 +96,7 @@ function App() {
       {/* <UseEffect/> */}
       {/* <Password/> */}
       {/* <WithoutUseContext/> */}
-      <UseContext/>
+      {/* <UseContext/> */}
       {/* <DarkModeProvider/> */}
       {/* <UseCallback/> */}
       {/* <ParentComp/> */}
@@ -119,7 +119,7 @@ function App() {
       {/* <TodoList/> */}
       {/* <TodoList/> */}
       {/* <TodoList/> */}
-      {/* <UserReducer/> */}
+      <UserReducer/>
       {/* <Discout/> */}
       {/* <UseRefDom/> */}
       {/* <Toggel/> */}
@@ -137,11 +137,11 @@ function App() {
       {/* <ParentRoutes/> */}
       {/* <task */}
       
-      <Provider store={store}>
+      {/* <Provider store={store}>
         <ReduxUI/>
       </Provider>
 
-      <Task/>
+      <Task/> */}
 
       </>
   )

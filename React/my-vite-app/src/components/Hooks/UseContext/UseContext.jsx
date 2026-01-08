@@ -15,7 +15,7 @@ const UseContext = () => {
         <h2>This is the first provider component</h2>
         <snameContext.Provider value={name}>
             <sunameContext.Provider value={surname}>
-                <ComponentX/>
+                <ComponentX/> 
             </sunameContext.Provider>   
         </snameContext.Provider>
     </div>
